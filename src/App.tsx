@@ -2,8 +2,10 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
+// import "./style.css";
 import Message from "./components/Message";
 import ListGroup from "./components/ListGroup";
+import Form from "./components/Form";
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -35,6 +37,7 @@ import ListGroup from "./components/ListGroup";
 // }
 
 function App () {
-    return <div><Message></Message><ListGroup></ListGroup></div>
+    // return <div><Message></Message><ListGroup></ListGroup></div>
+    return <div><Form></Form></div>
 }
 export default App
