@@ -8,7 +8,7 @@ function Form() {
         event.preventDefault();
         setToDos((currentToDos) => {
             return [...currentToDos,
-                {id: crypto.randomUUID(), title: newItem, completed: false},
+                {id: crypto.randomUUID(), title: newItem, completed: false}
             ]
         })
         setNewItem("")
